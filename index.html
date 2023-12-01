@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Marcellus SC' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Mansalva' rel='stylesheet'>
+	<link rel="icon" href="img/BG-2.png">
+	<title>Biruktawit Abebe</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+	<style>
+		body {
+			background-color: rgb(194, 192, 192);
+		}
+
+		#Nav {
+			background-color: black;
+
+		}
+
+		#Nav a {
+			font-family: 'Marcellus SC';
+		}
+
+		#about {
+			background-color: rgb(194, 192, 192);
+			color: black;
+			font-family: 'Marcellus SC';
+		}
+
+		#Services {
+			background-color: rgb(194, 192, 192);
+			color: black;
+			font-family: 'Marcellus SC';
+		}
+
+		#contact {
+			background-color: rgb(194, 192, 192);
+			color: black;
+			font-family: 'Mansalva';
+		}
+		#contact h4{
+			font-weight: bolder;
+		}
+    
+#skills {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.skill {
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill span {
+    color: #cccccc;
+    display: block;
+    padding: 0.5rem;
+}
+
+.progress {
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    height: 25px;
+    width: 90%;
+    margin: auto;
+}
+
+.progress-bar {
+    background-color: burlywood;
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: width 1s ease-in-out;
+}
+	</style>
+	<section id="nav">
+		<!-- Navigation Bar -->
+		<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#profile">Biruktawit  </a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul id="my-ul" class="ms-auto navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About Me</a>
+						</li>
+            <li class="nav-item">
+							<a class="nav-link" href="#skills">My skills</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</section>
+
+	<!-- About Me Section -->
+	<section id="about" class="container my-5">
+		<div class="row">
+			<div class="col-md-3">
+				<img src="abi.jpg" alt="Profile Picture" class="img-fluid">
+			</div>
+			<div class="col-md-8 text-dark p-">
+				<br>
+				<h1>Hi, I'm Biruktawit Abebe</h1><br>
+				<h5>Computer Science Student with a passion for creating beautiful and functional
+					websites and applications.</h5>
+			</div>
+		</div>
+		<br><br><br>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card my-2 p-2">
+					<div class="card-body bg-light"><i class="fa-solid fa-code"></i>
+						<h5 class="card-title text-center">
+							<h5>Web Development</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card my-2 p-2">
+					<div class="card-body bg-light"><i class="fa-solid fa-palette"></i>
+						<h5 class="card-title text-center">
+							<h5>Web Design</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card my-2 p-2">
+					<div class="card-body bg-light">
+						<i class="fa-solid fa-mobile-button"></i>
+						<h5 class="card-title text-center">
+							<h5>App Development</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card my-2 p-2">
+					<div class="card-body bg-light">
+						<i class="fa-solid fa-image"></i>
+						<h5 class="card-title text-center">
+							<h5>PhotoShop</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<br><br>
+  
+   <!-- Skills Section -->
+   <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skill">
+        <span>HTML</span>
+        <div class="progress"><div class="progress-bar" style="width: 90%;"></div></div>
+    </div>
+    <div class="skill">
+        <span>CSS</span>
+        <div class="progress"><div class="progress-bar" style="width: 85%;"></div></div>
+    </div>
+    
+<div class="skill">
+    <span>JavaScript</span>
+    <div class="progress"><div class="progress-bar" style="width: 0%;"></div></div>
+</div>
+<div class="skill">
+    <span>React</span>
+    <div class="progress"><div class="progress-bar" style="width: 75%;"></div></div>
+</div>
+<div class="skill">
+    <span>Node.js</span>
+    <div class="progress"><div class="progress-bar" style="width: 50%;"></div></div>
+</div>
+<div class="skill">
+    <span>Python</span>
+    <div class="progress"><div class="progress-bar" style="width:50%;"></div></div>
+</div>
+<div class="skill">
+    <span>SQL</span>
+    <div class="progress"><div class="progress-bar" style="width: 50%;"></div></div>
+</div>
+  
+	<!-- Contact Me Section -->
+	<section id="contact" class="container my-5">
+		<div class="row">
+			<div class="col-md-8 text-dark">
+				<h1 class="text-center">Contact Me</h1><br>
+				<h4>If you have any questions or want to work together, feel free to contact me at any time 24/7.</h4>
+				<br>
+				<h5>Email: biruktyabe@gmail.com</h5>
+				<h5>Phone: +251970806916</h5>
+				<h5>LinkedIn: www.Linkedin.com/Biruktawit Abebe</h5>
+				<h5>Github: www.Github.com/Biruktawit Abebe</h5>
+				<h5>Facebook: www.Facebook.com/Biruktawit Abebe</h5>
+				<h5>Instagram: www.Instagram.com/Biruktawit Abebe</h5>
+
+
+			</div>
+			<div class="col-md-4 p-1">
+				<img src="abi.jpg" alt="Profile Picture" class="img-fluid">
+			</div>
+		</div>
+		</div>
+	</section>
+	<br><br>
+	<footer class="bg-dark text-center text-white">
+
+		<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+			© 2023 Copyright:
+			<a class="text-white" href="#">Biruktawit Abebe</a>
+		</div>
+	</footer>
+
+	<!-- Bootstrap JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
